@@ -63,7 +63,7 @@ DWORD WINAPI funkcja_watku( void *argumenty ){
 	 Sleep( 1000 );
 	 while( 1 ){
 		 gotoxy( licznik++ / 5000+1, moje_dane->parametr );
-		 printf( "." );
+		 printf( "|" );
 	 }
 	 return 0;
-}
+}
